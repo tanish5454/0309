@@ -844,8 +844,7 @@ body {
 }
 
 .submit {
-    margin-top: 100%;
-    margin-bottom: 100%;
+    margin-top: 50%;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 2px black;
