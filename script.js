@@ -332,3 +332,11 @@ function closemem() {
     document.getElementById("div4").style.backgroundImage = "url(https://www.mediafire.com/convkey/b24c/ukisic642rqy9rd9g.jpg)";
     document.getElementById("submitbutt").style.display = "inline-block";
 }
+
+function chatdown1() {
+        document.getElementById("chatdownload1").value = "chat1downloaded";
+}
+
+function chatdown2() {
+        document.getElementById("chatdownload2").value = "chat2downloaded";
+}
