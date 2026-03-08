@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="gift.css">
+    <script src="gift.js"></script>
+    <title>Gift page</title>
+</head>
+<body>
+    <h1 id="intro" class="intro"></h1>
+
+    <center>
+    <div class="body" id="giftarea">
+        <button class="gift" id="gift" onclick="gift()"></button>
+        <h1 class="claimbutt1">Claim your Surprie 🫶🏻</h1>
+    </div>
+
+    <div id="contactd" class="contactd">
+        <h2 class="selrectxt">Select Receiver hone number</h2>
+        <button class="phnno" id="phnno1" onclick="phnno1()">9625****15 - Deafault</button>
+        <br>
+        <br>
+        <button class="phnno" id="phnno2" onclick="phnno2()">9310****62</button>
+        <br>
+        <button type="submit" class="nexttosubmit" id="nexttosubmit" form="form">Nextttt</button>
+    </div>
+
+    </center>
+
+    <form id="form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="cd0b4888-4c0a-4479-9c45-3353a215146a">
+        <input type="text" class="hiddeninp" name="contactnumber" id="contact" value="Deafault">
+
+    </form>
+    
+    
+</body>
+</html>

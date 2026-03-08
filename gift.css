@@ -1,0 +1,300 @@
+* {
+    user-select: none;
+    cursor: default;
+}
+body {
+    background-image: url(https://www.mediafire.com/convkey/b24c/ukisic642rqy9rd9g.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    margin: 0;
+    /* animation: blackbg 15s ease; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Permanent+Marker&display=swap');
+
+@keyframes blackbg {
+    0% {
+        background-image: none;
+    }
+
+    100% {
+        background-image: none;
+    }
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    margin-top: 50%;
+    font-family: Permanent Marker;
+    display: none;
+}
+
+.intro::after {
+    content: "";
+    /* animation: intro 5s linear, introtxt 20s linear 1s; */
+    font-family: Permanent Marker;
+}
+
+@keyframes intro {
+    0% {
+        content: "H";
+    }
+
+    1% {
+        content: "Hi";
+    }
+
+    2% {
+        content: "Hii ";
+    }
+
+    3% {
+        content: "Hii L";
+    }
+
+    4% {
+        content: "Hii L";
+    }
+
+    5% {
+        content: "Hii La";
+    }
+
+    6% {
+        content: "Hii Lax";
+    }
+
+    7% {
+        content: "Hii Laxm";
+    }
+
+    8% {
+        content: "Hii Laxmi";
+    }
+
+    9% {
+        content: "Hii Laxmi";
+    }
+
+    10% {
+        content: "Hii Laxmi";
+    }
+
+    11% {
+        content: "Hii Laxmi";
+        opacity: 1;
+    }
+
+    15% {
+        content: "Hii Laxmi";
+        opacity: 0;
+    }
+    
+    15% {
+        content: "";
+        opacity: 0;
+    }
+
+}
+
+@keyframes introtxt {
+
+    0% {
+        content: "";
+        opacity: 0;
+    }
+
+    10% {
+        content: "Thanks for coming here";
+        opacity: 1;
+    }
+
+    14% {
+        content: "Thanks for coming here";
+        opacity: 1;
+    }
+
+    15% {
+        content: "";
+        opacity: 0;
+    }
+
+    20% {
+        content: "This little efforts just for youuu";
+        opacity: 1;
+    }
+
+    24% {
+        content: "This little efforts just for youuu";
+        opacity: 1;
+    }
+
+    25% {
+        content: "";
+        opacity: 0;
+    }
+
+    30% {
+        content: "This page took 2 months";
+        opacity: 1;
+    }
+    
+    34% {
+        content: "This page took 2 months";
+        opacity: 1;
+    }
+
+    35% {
+        content: "";
+        opacity: 0;
+    }
+
+    40% {
+        content: "I hope you will see my all the efforts";
+        opacity: 1;
+    }
+
+    44% {
+        content: "I hope you will see my all the efforts";
+        opacity: 1;
+    }
+
+    45% {
+        content: "";
+        opacity: 0;
+    }
+
+    50% {
+        content: "I started this project on 9 jan";
+        opacity: 1;
+    }
+
+    54% {
+        content: "I started this project on 9 jan";
+        opacity: 1;
+    }
+
+    55% {
+        content: "";
+        opacity: 0;
+    }
+
+    60% {
+        content: "Here are one more surprise for you";
+        opacity: 1;
+    }
+
+    64% {
+        content: "Here are one more surprise for you";
+        opacity: 1;
+    }
+
+
+    70% {
+        content: "";
+        opacity: 0;
+        display: none;
+    }
+}
+
+.body {
+    /* animation: appear 17s; */
+}
+
+@keyframes appear {
+
+    0% {
+        opacity: 0;
+    }
+
+    95% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+.gift {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5717/5717488.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    filter: drop-shadow(0px 0px 10px white);
+    margin-top: 200px;
+    animation: jump-shaking 0.8s infinite;
+}
+
+@keyframes jump-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateY(-9px) }
+    35% { transform: translateY(-9px) rotate(17deg) }
+    55% { transform: translateY(-9px) rotate(-17deg) }
+    65% { transform: translateY(-9px) rotate(17deg) }
+    75% { transform: translateY(-9px) rotate(-17deg) }
+    100% { transform: translateY(0) rotate(0) }
+}
+
+.claimbutt1 {
+    font-family: permanent marker;
+    color: white;
+}
+
+.hiddeninp {
+    display: none;
+}
+
+.contactd {
+    background-color: transparent;
+    margin-top: 200px;
+    display: none;
+}
+
+.phnno {
+    background-color: pink;
+    color: black;
+    font-family: permanent marker;
+    padding: 5px 20px 20px 5px;
+    border-radius: 10px;
+    border: solid 3px black;
+    border-bottom: solid 7px black;
+    width: 100px;
+    transition: all 0.5s ease;
+    text-shadow: 0px 0px 10px black;
+}
+
+.phnnoactive {
+    background-color: teal;
+    color: white;
+    font-family: permanent marker;
+    padding: 5px 20px 20px 5px;
+    border-radius: 10px;
+    border: solid 3px black;
+    border-bottom: solid 7px white;
+    width: 100px;
+    transition: all 0.5s ease;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-shadow: 0px 0px 10px white;
+}
+
+.selrectxt {
+    color: white;
+    font-family: permanent marker;
+    text-shadow: 0px 0px 10px white;
+}
+
+.nexttosubmit {
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 0, 115, 0.4);
+    border: solid 2px rgb(255, 0, 115);
+    font-family: bungee;
+}
